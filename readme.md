@@ -9,13 +9,13 @@ This is a solution to demonstrate the use of ValueObjects
 
 - They have no identity.
 - They are **immutable**. 
-    - (also no Alias Bug -> ref one object in two playes and change it by accident see: [AliasingBug by Martin Fowler](https://martinfowler.com/bliki/AliasingBug.html))
+    - (also no Alias Bug -> ref one object in two places and change it by accident see: [AliasingBug by Martin Fowler](https://martinfowler.com/bliki/AliasingBug.html))
 
 ### Examples
 
 - RangeClass vs 2 integers
 - MyId vs GUID
-- Currency vs int (what Currency? €, $..? )
+- Currency vs int (what Currency? â‚¬, $..? )
 
 ### Hints
 
@@ -33,7 +33,7 @@ This is a solution to demonstrate the use of ValueObjects
 
 ### Surrogate Id vs. natural/business Id
 
-- Surrogate id is a unuqe key that can be sued to identify an object (in the DB or HTTP) e.g. GUID
+- Surrogate id is a unique key that can be used to identify an object (in the DB or HTTP) e.g. GUID
 
     1. Stability: Changing a key because of a business or natural need will negatively affect related tables. Surrogate keys rarely, if ever, need to be changed because there is no meaning tied to the value.
     2. Convention: Allows you to have a standardized Primary Key column naming convention rather than having to think about how to join tables with various names for their PKs.
