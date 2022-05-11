@@ -23,7 +23,7 @@
 
         // TODO mention structs for performance (but no inheritence)
 
-        // use value object to model stat and access
+        // use value object to model state and access
         private static bool PirateWantsTreasure(Pirate pirate)
         {
             // nice to uses
