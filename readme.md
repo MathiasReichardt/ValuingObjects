@@ -45,6 +45,7 @@ This is a solution to demonstrate the use of ValueObjects
 
 
 ## Reads
-[Great library for SI units](https://github.com/angularsen/UnitsNet)
-[Value Object by Martin Fowler](https://martinfowler.com/bliki/ValueObject.html)
-[Implement value objects](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects)
+
+- [Great library for SI units](https://github.com/angularsen/UnitsNet)
+- [Value Object by Martin Fowler](https://martinfowler.com/bliki/ValueObject.html)
+- [Implement value objects](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects)
